@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: monospace;
+  text-align: center;
+}
+
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+body {
+  background-color: #646072;
+  margin: 0;
+  
+}
+
+h1 {
+  margin: 30px;
+  font-family: monospace;
+  /* font-family: "Lobster", cursive; */
+  text-shadow: 5px 0 #3a3b3a;
+  font-size: 4.5rem;
+  color: #255f69;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  color: #748b85;
+  font-family: monospace;
+  /* font-family: "Indie Flower", cursive; */
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.bottom {
+  padding-top: 30px;
+}
+
+
+
+.butn:hover {
+  background: #1c2838;
+  text-decoration: none;
+}
